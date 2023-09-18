@@ -1,0 +1,3 @@
+<svg wire:loading.remove.delay="" wire:target="" class="filament-button-icon w-4 h-4 mr-1 -ml-1.5 rtl:ml-1 rtl:-mr-1.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+</svg><?php /**PATH C:\laragon\www\stage\portfolio-app\storage\framework\views/24b5570628d3c13924edd812d4ac367f17664742.blade.php ENDPATH**/ ?>
