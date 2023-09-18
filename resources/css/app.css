@@ -1,0 +1,144 @@
+@import '../../vendor/filament/forms/dist/module.esm.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html {
+    background-color: #1f1f1f;
+    font-family: 'Martian Mono', monospace;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #1f1f1f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(53, 53, 53);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #5e5e5e;
+}
+
+.scroll-down {
+    width: 100%;
+    height: 1000px;
+    padding: 50px 0px;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.scroll-down h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+    font-size: 64px;
+}
+
+.scroll-down-arrow {
+    border: 3px solid #f4f4f4;
+    border-radius: 50%;
+    margin: 45px auto;
+    width: 65px;
+    height: 65px;
+
+    -webkit-animation: bounce 1200ms ease;
+    -moz-animation: bounce 1200ms ease;
+    -o-animation: bounce 1200ms ease;
+    animation: bounce 1200ms ease;
+}
+
+.scroll-down-arrow:after {
+    content: "";
+    position: relative;
+    top: 40px;
+    right: 1px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+
+    border-top: 15px solid #f2f2f2;
+}
+
+/* Bounce Key Frames */
+@-webkit-keyframes bounce {
+    0% {
+        -webkit-transform: translateY(0);
+    }
+
+    25% {
+        -webkit-transform: translateY(100%);
+    }
+
+    50% {
+        -webkit-transform: translateY(0);
+    }
+
+    75% {
+        -webkit-transform: translateY(50%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes bounce {
+    0% {
+        -moz-transform: translateY(0);
+    }
+
+    25% {
+        -moz-transform: translateY(100%);
+    }
+
+    50% {
+        -moz-transform: translateY(0);
+    }
+
+    75% {
+        -moz-transform: translateY(50%);
+    }
+
+    100% {
+        -moz-transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(100%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    75% {
+        transform: translateY(50%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
